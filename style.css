@@ -1,0 +1,19 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #eeeeee;
+}
+
+#root {
+  padding: 20px;
+}
+
+#result .highlight {
+  background-color: lawngreen;
+  display: inline-block;
+  padding: 0 4px;
+}

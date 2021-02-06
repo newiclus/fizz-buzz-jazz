@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Wildom Test</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+  </head>
+  <body>
+    <main>
+      <div id="root">
+        <table class="table-result">
+          <tr>
+            <th><label for="inputNum">Number</label></th>
+            <th><input id="inputNum" type="number" pattern="/([0-9])/gi"/></th>
+          </tr>
+          <tr>
+            <td>Result</td>
+            <td>
+              <p id="result">&nbsp;</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
