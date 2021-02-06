@@ -1,7 +1,7 @@
 {
-  "name": "willdom",
+  "name": "fizbuzzjazz",
   "version": "1.0.0",
-  "description": "test willdom",
+  "description": "test case",
   "main": "main.js",
   "scripts": {
     "test": "jest --verbose"

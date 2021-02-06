@@ -2,7 +2,6 @@ function fizzBuzzJazz(n) {
   const result = [];
 
   for (let i = 1; i <= n; i++) {
-    let num = '';
     // n % 3 === 0 --> 'Fizz'
     // n % 5 === 0 --> 'Buzz'
     // n % 7 === 0 --> 'Jazz'
@@ -12,6 +11,7 @@ function fizzBuzzJazz(n) {
     // n % 5 === 0 && n % 7 === 0 --> 'BuzzJazz'
     // n % 3 === 0 && n % 5 === 0 && n % 7 === 0 --> 'FizzBuzzJazz'
     // --> n
+    let num = '';
 
     if (i % 3 === 0) {
       num+='Fizz';
